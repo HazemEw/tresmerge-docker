@@ -3,7 +3,7 @@ services:
   node-app:
     image: msoliman50/tresmerge-docker
     env_file:
-      - ./.env
+      - ./.env 
     deploy:
       replicas: 4
       update_config:
